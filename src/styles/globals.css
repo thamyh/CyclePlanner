@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom dark mode and glassmorphism utilities */
+:root {
+  --bg-base: hsl(220, 12%, 12%);
+  --bg-glass: rgba(255, 255, 255, 0.04);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--bg-base);
+}
