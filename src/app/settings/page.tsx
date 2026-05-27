@@ -24,7 +24,7 @@ export default function SettingsPage() {
           className={`pb-3 px-4 font-medium transition-colors ${activeTab === 'diet' ? 'border-b-2 border-blue-500 text-blue-400' : 'text-gray-400 hover:text-gray-200'}`}
           onClick={() => setActiveTab('diet')}
         >
-          Diet & Macro Plan
+          Bulk & Cut Plan
         </button>
       </div>
 

@@ -94,7 +94,7 @@ export default function DietForm() {
     <Card className="max-w-2xl mx-auto space-y-8 p-6 md:p-8 mt-8 border-t-4 border-indigo-500">
       <div className="flex justify-between items-center">
         <div>
-          <h2 className="text-2xl font-bold text-white mb-1">Diet & Macro Plan</h2>
+          <h2 className="text-2xl font-bold text-white mb-1">Bulk & Cut Plan</h2>
           <p className="text-sm text-gray-400">Total duration: {totalWeeks} weeks</p>
         </div>
         {dietPlan && (

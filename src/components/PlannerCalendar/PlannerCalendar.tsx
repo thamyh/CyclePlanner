@@ -157,7 +157,7 @@ export default function PlannerCalendar() {
         /* multiMonth specific styling tweaks */
         .calendar-container .fc-multimonth-title {
           color: #f3f4f6;
-          font-size: 1.1rem;
+          font-size: clamp(0.75rem, 2.5vw, 1.1rem); 
           font-weight: 600;
           padding: 1rem 0 0.5rem 0;
           cursor: pointer;
@@ -174,6 +174,25 @@ export default function PlannerCalendar() {
           border-radius: 0.5rem;
           overflow: hidden;
         }
+
+        /* May – October 2026 標題 */
+        .calendar-container .fc-toolbar-title {
+          font-size: clamp(0.85rem, 3.5vw, 1.25rem);
+        }
+
+        /* 6 Months / 1 Month / Today 按鈕 */
+        .calendar-container .fc-button {
+          font-size: clamp(0.6rem, 1.8vw, 0.875rem);
+          padding: clamp(0.2rem, 0.8vw, 0.4rem) clamp(0.4rem, 1.5vw, 0.75rem);
+        }
+
+        /* < > 箭頭按鈕 */
+        .calendar-container .fc-prev-button,
+        .calendar-container .fc-next-button {
+          font-size: clamp(0.7rem, 2vw, 1rem);
+          padding: clamp(0.2rem, 0.8vw, 0.4rem) clamp(0.35rem, 1.2vw, 0.6rem);
+        }
+        
       `}</style>
     </Card>
   );

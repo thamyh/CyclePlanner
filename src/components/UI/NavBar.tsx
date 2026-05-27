@@ -14,7 +14,7 @@ export default function NavBar() {
   return (
     <nav className="bg-gray-800/70 backdrop-blur-md border-b border-gray-700">
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
-        <div className="text-xl font-semibold text-gray-100">Cycle Planner</div>
+        <div className="text-xl font-semibold text-gray-100">練了沒軟蛋</div>
         <ul className="flex space-x-4">
           {navItems.map((item) => (
             <li key={item.href}>
